@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdjoinedNotFlagError" xml:space="preserve">
+    <value>L'alias adiacente non è un contrassegno</value>
+  </data>
+  <data name="AdjoinedNotFoundError" xml:space="preserve">
+    <value>Alias del contrassegno adiacente non trovato</value>
+  </data>
+  <data name="AvailableArguments" xml:space="preserve">
+    <value>Sono disponibili i seguenti argomenti:</value>
+  </data>
+  <data name="AvailableCommands" xml:space="preserve">
+    <value>Sono disponibili i seguenti comandi:</value>
+    <comment>Commands the tool supports</comment>
+  </data>
+  <data name="AvailableOptions" xml:space="preserve">
+    <value>Sono disponibili le seguenti opzioni:</value>
+  </data>
+  <data name="AvailableSubcommands" xml:space="preserve">
+    <value>Sono disponibili i seguenti comandi secondari:</value>
+    <comment>Nested commands that can be run in context of the selected command</comment>
+  </data>
+  <data name="ChannelArgumentDescription" xml:space="preserve">
+    <value>Usa il canale specificato; l'impostazione predefinita è General Audience (adatto a tutte le età)</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>comando</value>
+    <comment>A command to give the software</comment>
+  </data>
+  <data name="CommandArgumentDescription" xml:space="preserve">
+    <value>Filtra i risultati per comando</value>
+  </data>
+  <data name="CommandRequiresAdmin" xml:space="preserve">
+    <value>Questo comando richiede i privilegi di amministratore per l'esecuzione.</value>
+  </data>
+  <data name="CountArgumentDescription" xml:space="preserve">
+    <value>Non mostrare più del numero specificato di risultati</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Fatto</value>
+  </data>
+  <data name="ExactArgumentDescription" xml:space="preserve">
+    <value>Trova pacchetto con corrispondenza esatta</value>
+  </data>
+  <data name="ExperimentalArgumentDescription" xml:space="preserve">
+    <value>Argomento sperimentale a scopo dimostrativo</value>
+  </data>
+  <data name="ExperimentalCommandLongDescription" xml:space="preserve">
+    <value>Questo comando è un esempio su come implementare una funzionalità sperimentale. Per attivare l'opzione “winget settings” e abilitare le funzionalità experimentalCmd o experimentalArg.</value>
+    <comment>{Locked="winget settings"}</comment>
+  </data>
+  <data name="ExperimentalCommandShortDescription" xml:space="preserve">
+    <value>Esempio di funzionalità sperimentale</value>
+  </data>
+  <data name="ExtraPositionalError" xml:space="preserve">
+    <value>È stato trovato un argomento posizionale nonostante non ne fosse previsto alcuno</value>
+  </data>
+  <data name="FeatureDisabledMessage" xml:space="preserve">
+    <value>Questa funzionalità è in fase di elaborazione e potrebbe essere modificata completamente o rimossa del tutto in futuro. Per abilitarla, modifica le tue impostazioni (“winget settings”) per includere la funzionalità sperimentale</value>
+    <comment>{Locked="winget settings"}</comment>
+  </data>
+  <data name="FeaturesCommandLongDescription" xml:space="preserve">
+    <value>Mostra lo stato delle funzionalità sperimentali. Le funzionalità sperimentali possono essere attivate tramite “winget settings”.</value>
+    <comment>{Locked="winget settings"}</comment>
+  </data>
+  <data name="FeaturesCommandShortDescription" xml:space="preserve">
+    <value>Mostra lo stato delle funzionalità sperimentali</value>
+  </data>
+  <data name="FeaturesDisabled" xml:space="preserve">
+    <value>Disabilitate</value>
+  </data>
+  <data name="FeaturesEnabled" xml:space="preserve">
+    <value>Abilitata</value>
+  </data>
+  <data name="FeaturesFeature" xml:space="preserve">
+    <value>Funzionalità</value>
+  </data>
+  <data name="FeaturesLink" xml:space="preserve">
+    <value>Collegamento</value>
+  </data>
+  <data name="FeaturesMessage" xml:space="preserve">
+    <value>Le seguenti funzionalità sperimentali sono in corso.
+Possono essere configurati tramite il file di impostazioni ' winget settings '.</value>
+    <comment>{Locked="winget settings"}</comment>
+  </data>
+  <data name="FeaturesProperty" xml:space="preserve">
+    <value>Proprietà</value>
+  </data>
+  <data name="FeaturesStatus" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="FileArgumentDescription" xml:space="preserve">
+    <value>File su cui eseguire l'hashing</value>
+  </data>
+  <data name="FlagContainAdjoinedError" xml:space="preserve">
+    <value>L'argomento del contrassegno non può contenere un valore adiacente</value>
+  </data>
+  <data name="HashCommandLongDescription" xml:space="preserve">
+    <value>Calcola l'hash di un file locale, appropriato per l'ingresso in un manifesto. Può anche calcolare l'hash del file della firma di un pacchetto MSIX per abilitare le installazioni di streaming multimediale.</value>
+  </data>
+  <data name="HashCommandShortDescription" xml:space="preserve">
+    <value>Helper per eseguire l'hashing dei file di installazione</value>
+  </data>
+  <data name="HelpArgumentDescription" xml:space="preserve">
+    <value>Mostra la guida per il comando selezionato</value>
+  </data>
+  <data name="HelpForDetails" xml:space="preserve">
+    <value>Per altre informazioni su un comando specifico, passa alla Guida degli argomenti.</value>
+  </data>
+  <data name="HelpLinkPreamble" xml:space="preserve">
+    <value>Altre informazioni sono disponibili in:</value>
+  </data>
+  <data name="IdArgumentDescription" xml:space="preserve">
+    <value>Filtra i risultati per ID</value>
+  </data>
+  <data name="InstallationDisclaimer1" xml:space="preserve">
+    <value>Questa applicazione viene concessa in licenza dal proprietario.</value>
+  </data>
+  <data name="InstallationDisclaimer2" xml:space="preserve">
+    <value>Microsoft non è responsabile né concede alcuna licenza a pacchetti di terze parti.</value>
+  </data>
+  <data name="InstallationDisclaimerMSStore" xml:space="preserve">
+    <value>Questo pacchetto è stato fornito tramite Microsoft Store. winget potrebbe dover acquisire il pacchetto da Microsoft Store per conto dell'utente corrente.</value>
+    <comment>{Locked="winget"}</comment>
+  </data>
+  <data name="InstallationRequiresHigherWindows" xml:space="preserve">
+    <value>Non è possibile installare il pacchetto perché richiede una versione più recente di Windows:</value>
+  </data>
+  <data name="InstallCommandLongDescription" xml:space="preserve">
+    <value>Installa il pacchetto selezionato, trovato cercando una fonte configurata o direttamente da un manifesto. Per impostazione predefinita, la query deve essere non sensibile alle maiuscole e minuscole, corrispondere all'ID, al nome o al moniker del pacchetto. Gli altri campi possono essere utilizzati passando all'opzione appropriata.</value>
+    <comment>id, name, and moniker are all named values in our context, and may benefit from not being translated.</comment>
+  </data>
+  <data name="InstallCommandShortDescription" xml:space="preserve">
+    <value>Installa il pacchetto specificato</value>
+  </data>
+  <data name="InstallerHashMismatchAdminBlock" xml:space="preserve">
+    <value>Hash di installazione non corrispondente. Questo non può essere ignorato durante l'esecuzione come amministratore</value>
+  </data>
+  <data name="InstallerHashMismatchOverridden" xml:space="preserve">
+    <value>L’hash di installazione non corrisponde. Procedendo a causa di --force</value>
+    <comment>{Locked="--force"}</comment>
+  </data>
+  <data name="InstallerHashMismatchOverrideRequired" xml:space="preserve">
+    <value>Hash di installazione non corrispondente; Per eseguire l’override, seleziona use --force</value>
+    <comment>{Locked="--force"}</comment>
+  </data>
+  <data name="InstallerHashVerified" xml:space="preserve">
+    <value>Verifica dell'hash di installazione completata</value>
+  </data>
+  <data name="InstallFlowInstallSuccess" xml:space="preserve">
+    <value>Installazione riuscita</value>
+  </data>
+  <data name="InstallFlowStartingPackageInstall" xml:space="preserve">
+    <value>Avvio installazione pacchetto in corso...</value>
+  </data>
+  <data name="InstallForceArgumentDescription" xml:space="preserve">
+    <value>Esegui l’override del controllo hash del programma di installazione</value>
+  </data>
+  <data name="InteractiveArgumentDescription" xml:space="preserve">
+    <value>Richiedi l'installazione interattiva; l'input dell'utente potrebbe essere necessario</value>
+  </data>
+  <data name="InvalidAliasError" xml:space="preserve">
+    <value>Alias dell'argomento non riconosciuto per il comando corrente</value>
+  </data>
+  <data name="InvalidArgumentSpecifierError" xml:space="preserve">
+    <value>Identificatore argomento non valido</value>
+  </data>
+  <data name="InvalidNameError" xml:space="preserve">
+    <value>Nome di argomento non riconosciuto per il comando corrente</value>
+  </data>
+  <data name="LanguageArgumentDescription" xml:space="preserve">
+    <value>Lingua da installare (se supportata)</value>
+  </data>
+  <data name="LicenseAgreement" xml:space="preserve">
+    <value>Contratto di licenza</value>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>Collegamenti</value>
+    <comment>Links to different webpages</comment>
+  </data>
+  <data name="LocationArgumentDescription" xml:space="preserve">
+    <value>Percorso di installazione (se supportato)</value>
+  </data>
+  <data name="LogArgumentDescription" xml:space="preserve">
+    <value>Percorso log (se supportato)</value>
+  </data>
+  <data name="MainCopyrightNotice" xml:space="preserve">
+    <value>Copyright (c) Microsoft Corporation. Tutti i diritti sono riservati.</value>
+  </data>
+  <data name="MainHomepage" xml:space="preserve">
+    <value>Home page</value>
+    <comment>The primary webpage for the software</comment>
+  </data>
+  <data name="ManifestArgumentDescription" xml:space="preserve">
+    <value>Percorso del manifesto del pacchetto</value>
+  </data>
+  <data name="ManifestValidationFail" xml:space="preserve">
+    <value>Convalida del manifesto non riuscita.</value>
+  </data>
+  <data name="ManifestValidationSuccess" xml:space="preserve">
+    <value>Convalida del manifesto riuscita.</value>
+  </data>
+  <data name="ManifestValidationWarning" xml:space="preserve">
+    <value>La convalida del manifesto è stata effettuata con avvisi.</value>
+  </data>
+  <data name="MissingArgumentError" xml:space="preserve">
+    <value>Il valore dell'argomento risulta mancante</value>
+  </data>
+  <data name="MonikerArgumentDescription" xml:space="preserve">
+    <value>Filtra i risultati in base al moniker</value>
+  </data>
+  <data name="MsixArgumentDescription" xml:space="preserve">
+    <value>Il file di input verrà considerato come MSIX; l'hash della firma verrà fornito se firmato</value>
+  </data>
+  <data name="MsixSignatureHashFailed" xml:space="preserve">
+    <value>Non è possibile calcolare l'hash della firma MSIX.</value>
+  </data>
+  <data name="MSStoreInstallAppBlocked" xml:space="preserve">
+    <value>Impossibile installare il pacchetto di Microsoft Store perché l'app specifica è bloccata dai criteri</value>
+  </data>
+  <data name="MSStoreInstallFailed" xml:space="preserve">
+    <value>Impossibile installare il pacchetto di Microsoft Store. Codice di errore:</value>
+  </data>
+  <data name="MSStoreInstallGetEntitlementNetworkError" xml:space="preserve">
+    <value>Verifica/richiesta di acquisizione pacchetto non riuscita: errore di rete</value>
+  </data>
+  <data name="MSStoreInstallGetEntitlementNoStoreAccount" xml:space="preserve">
+    <value>Verifica/richiesta di acquisizione pacchetto non riuscita: nessun account Store trovato</value>
+  </data>
+  <data name="MSStoreInstallGetEntitlementServerError" xml:space="preserve">
+    <value>Verifica/richiesta di acquisizione pacchetto non riuscita: errore di rete</value>
+  </data>
+  <data name="MSStoreInstallGetEntitlementSuccess" xml:space="preserve">
+    <value>Verifica/richiesta di acquisizione pacchetto riuscita</value>
+  </data>
+  <data name="MSStoreInstallStoreClientBlocked" xml:space="preserve">
+    <value>Non è possibile installare il pacchetto Microsoft Store perché il client Microsoft Store è bloccato dai criteri</value>
+  </data>
+  <data name="MSStoreInstallTryGetEntitlement" xml:space="preserve">
+    <value>Verifica/richiesta di acquisizione pacchetti...</value>
+  </data>
+  <data name="MultiplePackagesFound" xml:space="preserve">
+    <value>Multipli pacchetti hanno trovato criteri di input corrispondenti. Ridefinisci l'input.</value>
+  </data>
+  <data name="NameArgumentDescription" xml:space="preserve">
+    <value>Filtra i risultati per nome</value>
+  </data>
+  <data name="NoApplicableInstallers" xml:space="preserve">
+    <value>Nessun programmi di installazione è applicabile al sistema corrente.</value>
+  </data>
+  <data name="NoExperimentalFeaturesMessage" xml:space="preserve">
+    <value>Al momento non sono disponibili funzionalità sperimentali. </value>
+  </data>
+  <data name="NoPackageFound" xml:space="preserve">
+    <value>Nessun pacchetto trovato con criteri di input corrispondenti.</value>
+  </data>
+  <data name="NoVTArgumentDescription" xml:space="preserve">
+    <value>Disabilita la visualizzazione di VirtualTerminal</value>
+    <comment>{Locked="VirtualTerminal"}</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>opzioni</value>
+    <comment>Options to change how a command works</comment>
+  </data>
+  <data name="OverrideArgumentDescription" xml:space="preserve">
+    <value>Sostituisci gli argomenti da trasmettere al programma di installazione</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Pacchetto</value>
+    <comment>A software package</comment>
+  </data>
+  <data name="PendingWorkError" xml:space="preserve">
+    <value>Ci siamo dimenticati di farlo...</value>
+  </data>
+  <data name="PreviewVersion" xml:space="preserve">
+    <value>Anteprima</value>
+  </data>
+  <data name="PrivacyStatement" xml:space="preserve">
+    <value>Informativa sulla privacy</value>
+  </data>
+  <data name="QueryArgumentDescription" xml:space="preserve">
+    <value>Query usata per cercare un'app</value>
+  </data>
+  <data name="RainbowArgumentDescription" xml:space="preserve">
+    <value>Lo stato di avanzamento mostra un arcobaleno di colori</value>
+  </data>
+  <data name="RequiredArgError" xml:space="preserve">
+    <value>L'argomento obbligatorio non è stato fornito</value>
+  </data>
+  <data name="RetroArgumentDescription" xml:space="preserve">
+    <value>Lo stato di avanzamento viene mostrato come il colore predefinito</value>
+  </data>
+  <data name="SearchCommandLongDescription" xml:space="preserve">
+    <value>Cerca i pacchetti da origini configurate.</value>
+  </data>
+  <data name="SearchCommandShortDescription" xml:space="preserve">
+    <value>Trova e mostra le informazioni di base dei pacchetti</value>
+  </data>
+  <data name="SearchId" xml:space="preserve">
+    <value>Id</value>
+    <comment>Abbreviation of Identifier.</comment>
+  </data>
+  <data name="SearchMatch" xml:space="preserve">
+    <value>Corrispondenza</value>
+  </data>
+  <data name="SearchName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="SearchTruncated" xml:space="preserve">
+    <value>voci aggiuntive troncate a causa del limite dei risultati</value>
+  </data>
+  <data name="SearchVersion" xml:space="preserve">
+    <value>Versione</value>
+  </data>
+  <data name="SettingLoadFailure" xml:space="preserve">
+    <value>Sono stati trovati i seguenti errori durante la convalida delle impostazioni:</value>
+  </data>
+  <data name="SettingsCommandLongDescription" xml:space="preserve">
+    <value>Apri le impostazioni nell'editor di testo json predefinito. Se nessun editor è configurato, apre le impostazioni nel blocco note. Per le impostazioni disponibili, vedi https://aka.ms/winget-settings</value>
+  </data>
+  <data name="SettingsCommandShortDescription" xml:space="preserve">
+    <value>Apri impostazioni</value>
+  </data>
+  <data name="SettingsWarnings" xml:space="preserve">
+    <value>Errore imprevisto durante il caricamento delle impostazioni. Verificare le impostazioni eseguendo il comando impostazioni.</value>
+  </data>
+  <data name="ShowChannel" xml:space="preserve">
+    <value>Canale</value>
+  </data>
+  <data name="ShowCommandLongDescription" xml:space="preserve">
+    <value>Mostra le informazioni relative a un pacchetto specifico. Per impostazione predefinita, la query deve essere non sensibile alle maiuscole e minuscole, corrispondere all’ID, al nome o al moniker del pacchetto. Gli altri campi possono essere utilizzati passando all'opzione appropriata.</value>
+  </data>
+  <data name="ShowCommandShortDescription" xml:space="preserve">
+    <value>Mostra le informazioni relative a un pacchetto</value>
+  </data>
+  <data name="ShowVersion" xml:space="preserve">
+    <value>Versione</value>
+  </data>
+  <data name="SilentArgumentDescription" xml:space="preserve">
+    <value>Richiedi l'installazione invisibile all'utente</value>
+  </data>
+  <data name="SingleCharAfterDashError" xml:space="preserve">
+    <value>Solo l'alias a carattere singolo può verificarsi dopo un singolo -</value>
+  </data>
+  <data name="SourceAddAlreadyExistsDifferentArg" xml:space="preserve">
+    <value>Esiste già un'origine con il nome specificato e si riferisce a un percorso diverso:</value>
+  </data>
+  <data name="SourceAddAlreadyExistsDifferentName" xml:space="preserve">
+    <value>Una fonte con un nome diverso fa già riferimento a questa posizione:</value>
+  </data>
+  <data name="SourceAddAlreadyExistsMatch" xml:space="preserve">
+    <value>Esiste già un'origine con il nome specificato e si riferisce allo stesso percorso:</value>
+  </data>
+  <data name="SourceAddBegin" xml:space="preserve">
+    <value>Aggiunta origine:</value>
+  </data>
+  <data name="SourceAddCommandLongDescription" xml:space="preserve">
+    <value>Aggiungi una nuova origine. Un'origine fornisce i dati per individuare e installare i pacchetti. Aggiungi una nuova origine solo se la consideri attendibile.</value>
+  </data>
+  <data name="SourceAddCommandShortDescription" xml:space="preserve">
+    <value>Aggiungi una nuova origine</value>
+  </data>
+  <data name="SourceArgArgumentDescription" xml:space="preserve">
+    <value>Argomento assegnato all'origine</value>
+  </data>
+  <data name="SourceArgumentDescription" xml:space="preserve">
+    <value>Trova il pacchetto usando l'origine specificata</value>
+  </data>
+  <data name="SourceCommandLongDescription" xml:space="preserve">
+    <value>Gestisci le origini con i comandi secondari. Un'origine fornisce i dati per individuare e installare i pacchetti. Aggiungi una nuova origine solo se la consideri attendibile.</value>
+  </data>
+  <data name="SourceCommandShortDescription" xml:space="preserve">
+    <value>Gestisci le origini dei pacchetti</value>
+  </data>
+  <data name="SourceListArg" xml:space="preserve">
+    <value>Argomento</value>
+    <comment>Value given to source.</comment>
+  </data>
+  <data name="SourceListCommandLongDescription" xml:space="preserve">
+    <value>Elenca tutte le origini correnti o tutti i dettagli di un'origine specifica.</value>
+  </data>
+  <data name="SourceListCommandShortDescription" xml:space="preserve">
+    <value>Elenca le origini correnti</value>
+  </data>
+  <data name="SourceListData" xml:space="preserve">
+    <value>Dati</value>
+    <comment>Data stored by the source.</comment>
+  </data>
+  <data name="SourceListField" xml:space="preserve">
+    <value>Campo</value>
+    <comment>The name of a peice of information about a source.</comment>
+  </data>
+  <data name="SourceListName" xml:space="preserve">
+    <value>Nome</value>
+    <comment>The name of the source.</comment>
+  </data>
+  <data name="SourceListNoneFound" xml:space="preserve">
+    <value>Impossibile trovare un'origine denominata:</value>
+  </data>
+  <data name="SourceListNoSources" xml:space="preserve">
+    <value>Nessuna origine configurata.</value>
+  </data>
+  <data name="SourceListType" xml:space="preserve">
+    <value>Tipo</value>
+    <comment>The kind of source.</comment>
+  </data>
+  <data name="SourceListUpdated" xml:space="preserve">
+    <value>Aggiornato</value>
+    <comment>The last time the source was updated.</comment>
+  </data>
+  <data name="SourceListUpdatedNever" xml:space="preserve">
+    <value>mai</value>
+    <comment>The soure has never been updated.</comment>
+  </data>
+  <data name="SourceListValue" xml:space="preserve">
+    <value>Valore</value>
+    <comment>The value of information about a source.</comment>
+  </data>
+  <data name="SourceNameArgumentDescription" xml:space="preserve">
+    <value>Nome dell'origine</value>
+  </data>
+  <data name="SourceRemoveAll" xml:space="preserve">
+    <value>Rimozione di tutte le origini in corso...</value>
+  </data>
+  <data name="SourceRemoveCommandLongDescription" xml:space="preserve">
+    <value>Rimuovi un'origine specifica.</value>
+  </data>
+  <data name="SourceRemoveCommandShortDescription" xml:space="preserve">
+    <value>Rimuovi le origini correnti</value>
+  </data>
+  <data name="SourceRemoveOne" xml:space="preserve">
+    <value>Rimozione origine:</value>
+  </data>
+  <data name="SourceResetAll" xml:space="preserve">
+    <value>Reimpostazione di tutte le origini in corso...</value>
+  </data>
+  <data name="SourceResetCommandLongDescription" xml:space="preserve">
+    <value>Questo comando elimina le origini esistenti, ad esclusione dei dati locali. Senza alcun argomento, eliminerà tutte le origini e aggiungerà quelle predefinite. Se viene fornito il nome di un'origine specifica, verrà eliminata solo quella.</value>
+  </data>
+  <data name="SourceResetCommandShortDescription" xml:space="preserve">
+    <value>Reimposta origini</value>
+  </data>
+  <data name="SourceResetForceArgumentDescription" xml:space="preserve">
+    <value>Forza il reset delle origini</value>
+  </data>
+  <data name="SourceResetListAndOverridePreamble" xml:space="preserve">
+    <value>Le origini seguenti verranno reimpostate se viene specificata l'opzione--force:</value>
+    <comment>{Locked="--force"}</comment>
+  </data>
+  <data name="SourceResetOne" xml:space="preserve">
+    <value>Reimpostazione origine:</value>
+  </data>
+  <data name="SourceTypeArgumentDescription" xml:space="preserve">
+    <value>Tipo di origine</value>
+  </data>
+  <data name="SourceUpdateAll" xml:space="preserve">
+    <value>Aggiornamento di tutte le origini...</value>
+  </data>
+  <data name="SourceUpdateCommandLongDescription" xml:space="preserve">
+    <value>Aggiorna tutte le origini o solo un'origine specifica.</value>
+  </data>
+  <data name="SourceUpdateCommandShortDescription" xml:space="preserve">
+    <value>Aggiorna le origini correnti</value>
+  </data>
+  <data name="SourceUpdateOne" xml:space="preserve">
+    <value>Aggiornamento origine:</value>
+  </data>
+  <data name="TagArgumentDescription" xml:space="preserve">
+    <value>Filtra i risultati per tag</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Grazie per aver usato WinGet</value>
+  </data>
+  <data name="ThirdPartSoftwareNotices" xml:space="preserve">
+    <value>Comunicazioni di terze parti</value>
+  </data>
+  <data name="ToolDescription" xml:space="preserve">
+    <value>L'utilità della riga di comando di Winget consente di installare le applicazioni e altri pacchetti dalla riga di comando.</value>
+  </data>
+  <data name="ToolInfoArgumentDescription" xml:space="preserve">
+    <value>Visualizza le informazioni generali dello strumento</value>
+  </data>
+  <data name="ToolVersionArgumentDescription" xml:space="preserve">
+    <value>Mostra la versione dello strumento</value>
+  </data>
+  <data name="TooManyArgError" xml:space="preserve">
+    <value>Argomento fornito più volte di quanto consentito</value>
+  </data>
+  <data name="TooManyBehaviorsError" xml:space="preserve">
+    <value>È stato fornito più di un argomento sul comportamento di installazione</value>
+  </data>
+  <data name="UnexpectedErrorExecutingCommand" xml:space="preserve">
+    <value>Si è verificato un errore imprevisto durante l'esecuzione del comando:</value>
+  </data>
+  <data name="UnrecognizedCommand" xml:space="preserve">
+    <value>Comando non riconosciuto</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>uso</value>
+    <comment>The way to use the software</comment>
+  </data>
+  <data name="ValidateCommandLongDescription" xml:space="preserve">
+    <value>Convalida un manifesto con un insieme di linee guida rigorose. Queste hanno lo scopo di consentirti di controllare il tuo manifesto prima di inviarlo a un repository.</value>
+  </data>
+  <data name="ValidateCommandShortDescription" xml:space="preserve">
+    <value>Convalida un file manifesto</value>
+  </data>
+  <data name="ValidateManifestArgumentDescription" xml:space="preserve">
+    <value>Il percorso del manifesto da convalidare</value>
+  </data>
+  <data name="VerboseLogsArgumentDescription" xml:space="preserve">
+    <value>Abilita la registrazione dettagliata per WinGet</value>
+  </data>
+  <data name="VerifyFileSignedMsix" xml:space="preserve">
+    <value>Verifica che il file di input sia un MSIX valido e firmato.</value>
+  </data>
+  <data name="VersionArgumentDescription" xml:space="preserve">
+    <value>Usa la versione specificata; la versione predefinita è quella più recente</value>
+  </data>
+  <data name="VersionsArgumentDescription" xml:space="preserve">
+    <value>Mostra le versioni disponibili del pacchetto</value>
+  </data>
+</root>
